@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-wnb#!e+8w*hi0w(teo4g^vb47gm9p&s0obavqbqwfzdm!wg8+!
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-bdiamond2-cruddyrecipes-fq6j01sc2hq.ws-us101.gitpod.io']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-bdiamond2-cruddyrecipes-fq6j01sc2hq.ws-us101.gitpod.io']
 
 # Application definition
 
