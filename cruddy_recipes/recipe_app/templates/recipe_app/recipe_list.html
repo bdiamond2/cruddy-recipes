@@ -19,7 +19,7 @@
             {% for recipe in recipes %}
             <tr>
                 <td>{{ recipe.id }}</td>
-                <td>{{ recipe.title }}</td>
+                <td><a href="{% url 'recipe_detail' recipe.id %}">{{ recipe.title }}</a></td>
                 <td>{{ recipe.description }}</td>
             </tr>
             {% endfor %}
